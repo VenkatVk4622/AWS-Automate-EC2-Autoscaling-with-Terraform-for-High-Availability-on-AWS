@@ -1,0 +1,8 @@
+aws_region       = "us-east-1"
+vpc_id           = "vpc-065023e297a4f96f5"
+subnet_ids       = ["subnet-0c8adb0b716d876a7", "subnet-0a3f8c86e81067f0e"]
+instance_type    = "t2.micro"
+ami_id           = "ami-0e449927258d45bc4"
+desired_capacity = 2
+min_size         = 2
+max_size         = 4
